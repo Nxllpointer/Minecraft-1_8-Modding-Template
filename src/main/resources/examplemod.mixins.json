@@ -1,0 +1,9 @@
+{
+  "required": true,
+  "compatibilityLevel": "JAVA_8",
+  "package": "com.example.examplemod.mixin",
+  "refmap": "examplemod.refmap.json",
+  "client": [
+    "GuiMainMenuMixin"
+  ]
+}
