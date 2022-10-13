@@ -82,7 +82,7 @@ tasks {
     // Specify your JAR settings here. ShadowJAR will inherit them
     jar {
         enabled = false // Disable the jar task because remapJar unnecessarily calls it. We replace jar with shadowJar
-        outputs
+
         manifest.attributes(
             // Mixins are loaded on startup using a tweaker
             "TweakClass" to "${relocateShadowJar.prefix}.org.spongepowered.asm.launch.MixinTweaker",
